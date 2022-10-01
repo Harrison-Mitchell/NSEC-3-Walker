@@ -2,9 +2,9 @@
 
 DNS zones that use DNSSEC must use NSEC or NSEC3 records as a means of authenticated denial-of-existence. NSEC allows for fully extracting DNS zones akin to an AXFR zone transfer or a "zone dump". NSEC3 adds hashes to this process which must be cracked, but offline cracking is faster than online brute-forcing. NSEC(3) Walker automates this extraction process.
 
-For more technical information see: LINK
+For more technical information see: https://harrisonm.com/blog/nsec-walking
 
-For a whitepaper analysing NSEC3 recovery see: LINK
+For a whitepaper analysing NSEC3 recovery see: https://harrisonm.com/whitepaper/nsec3-prevalence-and-recoverability.pdf
 
 ### Dependencies
 
