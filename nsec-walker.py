@@ -309,7 +309,7 @@ def nsec3align ():
 # Help / Usage
 if len(argv) == 1 or "-h" in argv or "--help" in argv:
 	exit(f"""          🚶
-\033[1mNSEC(3) Walker\033[0m - https://harrisonm.com/blog/nsec
+\033[1mNSEC(3) Walker\033[0m - https://harrisonm.com/blog/nsec-walking
 Recovers DNS zone data for most DNSSEC zones
 
 Crawl: (NSEC / NSEC3 auto-detected)
